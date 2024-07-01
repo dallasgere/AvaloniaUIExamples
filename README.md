@@ -1,8 +1,9 @@
 # Learning Avalonia
 
-- this is a collection of C#/Avalonia UI code that I am using to keep track of new things that I have learned and what not
+- this is a collection of C#/Avalonia UI code that I am using to keep track of new things that I have learned and
+  hopefully provide some useful help to others
 
-# Getting Started 
+# Getting Started
 
 - clone this repo to explore the code further
 
