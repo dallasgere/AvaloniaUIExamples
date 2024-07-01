@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Avalonia.App.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="200"
+        x:Class="Avalonia.App.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Title="Counter Example"
+        Width="800" Height="600">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+        <TextBlock Text="{Binding Count}" FontSize="24" HorizontalAlignment="Center" />
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <Button Content="-" Command="{Binding DecrementCommand}" Width="50" />
+            <Button Content="+" Command="{Binding IncrementCommand}" Width="50" />
+        </StackPanel>
+        <TextBox Text="{Binding TextBoxContent}" Width="200" />
+        <Button Content="Go To New View" Command="{Binding NavigateToNewViewCommand}" Width="" />
+    </StackPanel>
+
+</Window>
