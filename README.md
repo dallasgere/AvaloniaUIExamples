@@ -7,5 +7,5 @@
 - clone this repo to explore the code further
 
 ```bash
-git clone 
+git clone git@github.com:dallasgere/AvaloniaUIExamples.git
 ```

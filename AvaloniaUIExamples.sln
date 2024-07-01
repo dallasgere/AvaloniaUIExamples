@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.App", "Avalonia.App\Avalonia.App.csproj", "{7A01CA37-F015-476E-ADA7-47E5AD547AD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaUIExamples.App", "AvaloniaUIExamples.App\AvaloniaUIExamples.App.csproj", "{7A01CA37-F015-476E-ADA7-47E5AD547AD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
