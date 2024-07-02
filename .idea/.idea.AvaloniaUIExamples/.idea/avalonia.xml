@@ -6,6 +6,7 @@
         <entry key="AvaloniaUIExamples.App/App.axaml" value="AvaloniaUIExamples.App/AvaloniaUIExamples.App.csproj" />
         <entry key="AvaloniaUIExamples.App/Views/MainWindow.axaml" value="AvaloniaUIExamples.App/AvaloniaUIExamples.App.csproj" />
         <entry key="AvaloniaUIExamples.App/Views/NewView.axaml" value="AvaloniaUIExamples.App/AvaloniaUIExamples.App.csproj" />
+        <entry key="AvaloniaUIExamples.App/Views/OtherView.axaml" value="AvaloniaUIExamples.App/AvaloniaUIExamples.App.csproj" />
       </map>
     </option>
   </component>

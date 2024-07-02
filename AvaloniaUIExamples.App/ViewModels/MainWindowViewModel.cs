@@ -12,6 +12,13 @@ public class MainWindowViewModel : ReactiveObject
     private string _textBoxContent = "";
     private object _currentView;
     private int _calculatedLength;
+    private ViewModelBase _contentViewModel;
+
+    public ViewModelBase ContentViewModel
+    {
+        get => _contentViewModel;
+        private set => this.RaiseAndSetIfChanged(ref _contentViewModel, value);
+    }
 
     public int CalculatedLength
     {
@@ -63,8 +70,7 @@ public class MainWindowViewModel : ReactiveObject
 
     public void NavigateToNewView()
     {
-        var newView = new NewView();
-        newView.Show();
+        ContentViewModel = new OtherViewModel();
     }
 
     public int GetLength(string word)

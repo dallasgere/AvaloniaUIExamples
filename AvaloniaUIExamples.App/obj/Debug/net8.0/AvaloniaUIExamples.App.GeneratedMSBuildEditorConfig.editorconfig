@@ -25,3 +25,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/Users/dallasgere/dev/AvaloniaUIExamples/AvaloniaUIExamples.App/Views/NewView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/dallasgere/dev/AvaloniaUIExamples/AvaloniaUIExamples.App/Views/OtherView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

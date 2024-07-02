@@ -8,8 +8,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d45224e8-0d58-4d68-958c-014ddeaed226" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/ViewModels/OtherViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/Views/OtherView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/Views/OtherView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/refint/AvaloniaUIExamples.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/refint/AvaloniaUIExamples.App.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +76,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -105,7 +123,30 @@
       <workItem from="1719876678617" duration="66000" />
       <workItem from="1719876755791" duration="11000" />
       <workItem from="1719876813765" duration="81000" />
-      <workItem from="1719876896844" duration="401000" />
+      <workItem from="1719876896844" duration="966000" />
+      <workItem from="1719877890812" duration="15000" />
+      <workItem from="1719877929942" duration="15000" />
+      <workItem from="1719877958243" duration="11000" />
+      <workItem from="1719877978864" duration="7000" />
+      <workItem from="1719877999285" duration="13000" />
+      <workItem from="1719878038656" duration="25000" />
+      <workItem from="1719878084796" duration="4000" />
+      <workItem from="1719878102520" duration="108000" />
+      <workItem from="1719878229717" duration="1000" />
+      <workItem from="1719878247488" duration="24000" />
+      <workItem from="1719878278206" duration="3000" />
+      <workItem from="1719878314822" duration="6000" />
+      <workItem from="1719878335041" duration="7000" />
+      <workItem from="1719878374214" duration="2000" />
+      <workItem from="1719878391338" duration="7000" />
+      <workItem from="1719878438490" duration="5000" />
+      <workItem from="1719878458108" duration="4000" />
+      <workItem from="1719878487374" duration="15000" />
+      <workItem from="1719878531869" duration="5000" />
+      <workItem from="1719878568090" duration="28000" />
+      <workItem from="1719878627902" duration="19000" />
+      <workItem from="1719878710366" duration="33000" />
+      <workItem from="1719878783190" duration="100000" />
     </task>
     <servers />
   </component>
