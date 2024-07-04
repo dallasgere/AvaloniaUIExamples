@@ -9,17 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d45224e8-0d58-4d68-958c-014ddeaed226" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewModels/OtherViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/OtherView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/OtherView.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/avalonia.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/AppViewLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/OtherView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/OtherView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +153,7 @@
       <workItem from="1720052410754" duration="8000" />
       <workItem from="1720052437888" duration="14000" />
       <workItem from="1720052751162" duration="111000" />
-      <workItem from="1720054767455" duration="3721000" />
+      <workItem from="1720054767455" duration="3966000" />
     </task>
     <servers />
   </component>
