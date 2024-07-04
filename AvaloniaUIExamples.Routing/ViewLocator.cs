@@ -2,6 +2,7 @@ using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using AvaloniaUIExamples.Routing.ViewModels;
+using ReactiveUI;
 
 namespace AvaloniaUIExamples.Routing;
 

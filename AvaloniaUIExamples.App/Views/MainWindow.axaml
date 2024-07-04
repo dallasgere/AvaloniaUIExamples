@@ -20,8 +20,8 @@
             <Button Content="+" Command="{Binding IncrementCommand}" Width="50" />
         </StackPanel>
         <TextBox Text="{Binding TextBoxContent}" Width="200" />
-        <Button Content="Navigate to New View" Click="{Binding NavigateToNewViewCommand}" />
-        <ContentControl Content="{Binding ContentViewModel}" />
+        <!-- <Button Content="Navigate to New View" Click="{Binding NavigateToNewViewCommand}" /> -->
+        <!-- <ContentControl Content="{Binding ContentViewModel}" /> -->
     </StackPanel>
 
 </Window>

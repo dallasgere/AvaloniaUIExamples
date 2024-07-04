@@ -1,8 +1,38 @@
-﻿namespace AvaloniaUIExamples.Routing.ViewModels;
+﻿using System.Reactive;
+using ReactiveUI;
 
-public class MainWindowViewModel : ViewModelBase
+namespace AvaloniaUIExamples.Routing.ViewModels;
+
+// public class MainWindowViewModel : ViewModelBase
+// {
+// #pragma warning disable CA1822 // Mark members as static
+//     public string Greeting => "Welcome to Avalonia!";
+// #pragma warning restore CA1822 // Mark members as static
+// }
+
+public class MainWindowViewModel : ReactiveObject, IScreen
 {
-#pragma warning disable CA1822 // Mark members as static
-    public string Greeting => "Welcome to Avalonia!";
-#pragma warning restore CA1822 // Mark members as static
+    // The Router associated with this Screen.
+    // Required by the IScreen interface.
+    public RoutingState Router { get; } = new RoutingState();
+
+    // The command that navigates a user to first view model.
+    public ReactiveCommand<Unit, IRoutableViewModel> GoNext { get; }
+
+    // The command that navigates a user back.
+    public ReactiveCommand<Unit, IRoutableViewModel> GoBack => Router.NavigateBack;
+
+    public MainWindowViewModel()
+    {
+        // Manage the routing state. Use the Router.Navigate.Execute
+        // command to navigate to different view models. 
+        //
+        // Note, that the Navigate.Execute method accepts an instance 
+        // of a view model, this allows you to pass parameters to 
+        // your view models, or to reuse existing view models.
+        //
+        GoNext = ReactiveCommand.CreateFromObservable(
+            () => Router.Navigate.Execute(new FirstViewModel(this))
+        );
+    }
 }

@@ -7,6 +7,9 @@
         <entry key="AvaloniaUIExamples.App/Views/MainWindow.axaml" value="AvaloniaUIExamples.App/AvaloniaUIExamples.App.csproj" />
         <entry key="AvaloniaUIExamples.App/Views/NewView.axaml" value="AvaloniaUIExamples.App/AvaloniaUIExamples.App.csproj" />
         <entry key="AvaloniaUIExamples.App/Views/OtherView.axaml" value="AvaloniaUIExamples.App/AvaloniaUIExamples.App.csproj" />
+        <entry key="AvaloniaUIExamples.Routing/App.axaml" value="AvaloniaUIExamples.Routing/AvaloniaUIExamples.Routing.csproj" />
+        <entry key="AvaloniaUIExamples.Routing/Views/FirstView.axaml" value="AvaloniaUIExamples.Routing/AvaloniaUIExamples.Routing.csproj" />
+        <entry key="AvaloniaUIExamples.Routing/Views/MainWindow.axaml" value="AvaloniaUIExamples.Routing/AvaloniaUIExamples.Routing.csproj" />
       </map>
     </option>
   </component>
