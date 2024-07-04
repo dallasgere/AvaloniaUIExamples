@@ -14,13 +14,15 @@ public class MainWindowViewModel : ReactiveObject, IScreen
 {
     // The Router associated with this Screen.
     // Required by the IScreen interface.
-    public RoutingState Router { get; } = new RoutingState();
+    public RoutingState Router { get; } = new();
 
     // The command that navigates a user to first view model.
     public ReactiveCommand<Unit, IRoutableViewModel> GoNext { get; }
 
     // The command that navigates a user back.
     public ReactiveCommand<Unit, IRoutableViewModel> GoBack => Router.NavigateBack;
+
+    public ReactiveCommand<Unit, IRoutableViewModel> GoOther { get; }
 
     public MainWindowViewModel()
     {
@@ -33,6 +35,10 @@ public class MainWindowViewModel : ReactiveObject, IScreen
         //
         GoNext = ReactiveCommand.CreateFromObservable(
             () => Router.Navigate.Execute(new FirstViewModel(this))
+        );
+
+        GoOther = ReactiveCommand.CreateFromObservable(
+            () => Router.Navigate.Execute(new OtherViewModel(this))
         );
     }
 }

@@ -1,13 +1,13 @@
 using Avalonia.Markup.Xaml;
 using AvaloniaUIExamples.Routing.ViewModels;
-using ReactiveUI;
 using Avalonia.ReactiveUI;
+using ReactiveUI;
 
 namespace AvaloniaUIExamples.Routing.Views;
 
-public partial class FirstView : ReactiveUserControl<FirstViewModel>
+public partial class OtherView : ReactiveUserControl<OtherViewModel>
 {
-    public FirstView()
+    public OtherView()
     {
         this.WhenActivated(disposables => { });
         AvaloniaXamlLoader.Load(this);

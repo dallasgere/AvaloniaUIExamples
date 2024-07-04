@@ -38,6 +38,7 @@
             </StackPanel.Styles>
             <Button Content="Go next" Command="{Binding GoNext}" />
             <Button Content="Go back" Command="{Binding GoBack}" />
+            <Button Content="Go other" Command="{Binding GoOther}" />
             <TextBlock Text="{Binding Router.NavigationStack.Count}" />
         </StackPanel>
     </Grid>

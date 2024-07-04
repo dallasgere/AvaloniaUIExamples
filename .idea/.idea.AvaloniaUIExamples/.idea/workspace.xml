@@ -9,33 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d45224e8-0d58-4d68-958c-014ddeaed226" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/AppViewLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewModels/FirstViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewModels/OtherViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/OtherView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/OtherView.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaUIExamples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/Views/MainWindow.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/bin/Debug/net8.0/AvaloniaUIExamples.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/bin/Debug/net8.0/AvaloniaUIExamples.App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/bin/Debug/net8.0/AvaloniaUIExamples.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/bin/Debug/net8.0/AvaloniaUIExamples.App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/AvaloniaUIExamples.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/AvaloniaUIExamples.App.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/original.ref.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/AvaloniaUIExamples.App.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/ref/AvaloniaUIExamples.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/ref/AvaloniaUIExamples.App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/refint/AvaloniaUIExamples.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/Debug/net8.0/refint/AvaloniaUIExamples.App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.App/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/AppViewLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/AppViewLocator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/FirstView.axaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaUIExamples.Routing/Views/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +163,7 @@
       <workItem from="1720052410754" duration="8000" />
       <workItem from="1720052437888" duration="14000" />
       <workItem from="1720052751162" duration="111000" />
-      <workItem from="1720054767455" duration="2434000" />
+      <workItem from="1720054767455" duration="3721000" />
     </task>
     <servers />
   </component>
